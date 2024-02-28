@@ -1,0 +1,4 @@
+*.pre
+*.copy.synctex.gz
+*.synctex.gz
+*.asy

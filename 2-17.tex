@@ -1,0 +1,52 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{ernest}
+
+\let\biconditional\leftrightarrow
+\author{Ernest L}
+\date{\today}
+\title{Math 113}
+
+\begin{document}
+\maketitle
+\section{Quotient Groups and Isomorphism Theorems}
+
+    \begin{theorem}
+        $Nx = Ny \biconditional xy^{-1} \in N$ for group N making right cosets
+    \end{theorem}
+
+    \begin{itemize}
+        \item
+        Think of normal subgroups groups as kernels of homomorphisms.
+        \item 
+        A subgroup is normal if and only if its left and right cosets are the same for all elements g.
+    \end{itemize}
+
+    \begin{theorem}
+        $\Phi: G \to H$ is a surjective homomorphism, then $H \cong G/\ker \Phi$
+    \end{theorem}
+    Alternatively, the above can be expressed as:
+    \begin{note}
+    $\Phi: G \to H$ is a homomorphism, then $\textbf{image} (\Phi: G \to H) \cong G/\ker \Phi$
+    \end{note}
+
+    \begin{theorem}
+        Let $K \triangleleft G$, $N \triangleleft G$ and $N \subseteq K \subseteq G$
+        Then $K/N \triangleleft G/N$ and $(G/N)/(K/N) \cong G/K$
+    \end{theorem}
+
+    The correspondence theorem below goes in the other direction, saying that we can find a quotient group for any subgroup of of 
+    the original quotient group.
+    \begin{theorem}
+        Suppose $T \subseteq G / N$, then there exists some subgroup $H \subseteq G$ such that $N \subseteq H$ and $H/N \cong T$
+    \end{theorem}
+
+    \begin{definition}
+        A group is simple iff it contains no nontrivial proper normal subgroups.
+    \end{definition}
+    
+    
+
+
+\end{document}
